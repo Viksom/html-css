@@ -1,0 +1,27 @@
+body {
+    text-align: justify;
+    background-color: rgba(75, 161, 241, 0.37);
+    color: rgb(0, 6, 85);
+}
+h1 {
+    text-align: center;
+    background-color: rgba(3, 44, 83, 0.37);;
+}
+h2 {
+    text-align: right;
+    color: rgb(240, 0, 0);
+}
+#Principal {
+    font-size: 48px;
+    color: rgba(0, 0, 78, 0.733);
+}
+.paragrafo {
+    width: 300px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

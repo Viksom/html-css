@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #0909aa8c;
+        }
+        div {
+            background-color: whitesmoke;
+            display: block;
+            border-radius: 10px;
+            margin: auto;
+            width: 400px;
+            height: 300px;
+            border: 1px solid black;
+        }
+        a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a:visited {
+            color: darkred;
+            font-weight: bolder;
+        }
+        a:active {
+            color: yellow;
+        }
+        .especial::after {
+            content: '-';
+        }
+        .especial::before {
+            content: '>';
+        }
+        a:hover {
+            color: black;
+        }
+        ul > .sublink {
+            display: none;
+        }
+        ul:hover > .sublink {
+            display: block;
+        }
+    </style>
+    <title>Tabalhando com Pseudo-Elementos</title>
+</head>
+<body>
+    <div>
+        <h1>Ainda sobre Pseudo-Classes</h1>
+        <h2>Acesse as minhas redes socias</h2>
+        <ul>
+            <li><a class="especial" class="plink" href="https://www.facebook.com/viksomalberto55" target="_blank">Facebook</a></li>
+            <ul class="sublink" type="square">
+                <li><a href="">Foto de perfil</a></li>
+            </ul>
+            <li><a class="slink" href="https://www.instagram.com/viksom_alberto/" target="_blank">Instagram</a></li>
+            <ul class="sublink" type="square">
+                <li><a href="">Foto de perfil</a></li>
+            </ul>
+            <li><a class="especial" class="tlink" href="https://twitter.com/JVicksom" target="_blank">Twitter</a></li>
+            <ul class="sublink" type="square">
+                <li><a class="sublink" href="">Foto de perfil</a></li>
+            </ul>
+        </ul>
+    </div>
+</body>
+</html>

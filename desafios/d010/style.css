@@ -1,0 +1,130 @@
+@charset "utf-8";
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: bold;
+    font-size: normal;
+}
+
+
+body {
+    background-color: #4fdf90b4;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header {
+    margin: auto;
+    padding: 1px;
+    background-color: #247c24;
+    color: white;
+    text-align: center;
+}
+header > p {
+    width: 400px;
+    margin: auto;
+}
+header > nav {
+    text-align: left;
+    margin: 10px 0px 10px 30px;
+    padding: 3px;
+}
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px 0px 0px;
+}
+header > nav > a:hover {
+    background-color: #4ddb4d44;
+    box-shadow: 1px 1px 1px #00000070;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    margin: 3px;
+}
+.assunto {
+    margin: 3px auto;
+    width: 600px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 1px #00000070;
+}
+.especial {
+    font-family: idroid, display;
+    color: #007200;
+}
+.video {
+    margin: auto;
+    background-color: #247c24;
+    width: 620px;
+    outline: 1px solid #00000070;
+}
+.video > iframe {
+    margin: 10px 10px 10px 33px;
+    padding: 1px;
+}
+.listas {
+    background-color: white;
+    width: 620px;
+    margin: 3px auto 10px auto;
+    padding: 1px;
+    box-shadow: 1px 1px 1px #00000070;
+    border-radius: 0px 0px 10px 10px;
+}
+.listas > div {
+    width: 580px;
+    background-color: #89dfafb4;
+    margin: 10px auto 10px auto;
+    padding: 1px;
+    box-shadow: 1px 1px 1px #00000070;
+    border-radius: 8px 8px 8px 8px;
+}
+.listas > div > h2 {
+    width: 580px;
+    background-color: green;
+    color: white;
+    padding: 1px;
+    border-radius: 8px 8px 0px 0px;
+    margin: 0px;
+}
+.listas > div > article {
+    margin: 10px;
+}
+.coluna1 {
+    display: inline-block;
+    margin: 0px 20px;
+}
+.coluna2 {
+    display: inline-block;
+    margin: 0px 0px 0px 100px;
+}
+.esquerdo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.direito {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.linkespecial {
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+}
+.linkespecial:hover {
+    font-weight: 550;
+}
+aside {
+    text-indent: 20px;
+    margin: auto;
+    width: 580px;
+}
+footer > p {
+    margin: 0px;
+    text-align: center;
+}
+footer {
+    background-color: #247c24;
+    color: white;
+    padding: 3px;
+}
